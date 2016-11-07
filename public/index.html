@@ -2,28 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.css">
 	<title>Mini_CRM</title>
 </head>
 <body>
-<div>
-<ul class="crm">
-<h1>Formulaire</h1>
-<div class="ui form">
-  <div class="field">
-    <label>Prénom: </label>
-    <input type="text">
+  <div>
+    <ul class="crm">
+      <h1>Formulaire</h1>
+      <div class="ui form">
+        <div class="field">
+          <label>Prénom: </label>
+          <input id="prenom" type="text">
+        </div>
+        <div class="field">
+          <label>Nom: </label>
+          <input id="nom" type="text">
+        </div>
+        <div class="field">
+          <label>Entreprise: </label>
+          <input id="compagne" type="text">
+        </div>
+        <div class="field">
+          <label>Titre: </label>
+          <input id="role" type="text">
+        </div>
+        <div class="field">
+          <label>Mail: </label>
+          <input id="email" type="text">
+        </div>
+        <div class="field">
+          <label>Déscription: </label>
+          <input id="description" type="text">
+        </div>
+      <button id="valide">Valider</button>
+      </ul>
+    </div>
   </div>
-
-<div class="ui form">
-  <div class="field">
-    <label>Nom: </label>
-    <input type="text">
-  </div>
-</div>
-</ul>
-</div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="app.js"></script>	
+  <script src="node_modules/semantic-ui/dist/semantic.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="app.js"></script>	
 </body>
 </html>
